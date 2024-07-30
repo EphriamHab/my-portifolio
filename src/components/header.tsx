@@ -40,7 +40,7 @@ export default function Header() {
           </button>
         </div>
         <div className="hidden md:flex md:space-x-8">
-          <a href="#home" className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded">Home</a>
+          <a href="#" className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded">Home</a>
           <a href="#about" className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded">About</a>
           <a href="#services" className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded">
             Services
@@ -76,7 +76,7 @@ export default function Header() {
           </button>
         </div>
         <nav className="flex flex-col p-4 space-y-4">
-          <a href="#home" onClick={()=>setIsOpen(false)} className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded">Home</a>
+          <a href="#" onClick={()=>setIsOpen(false)} className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded">Home</a>
           <a href="#about" onClick={()=>setIsOpen(false)} className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded">About</a>
           <a href="#services" onClick={()=>setIsOpen(false)} className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded">
             Services

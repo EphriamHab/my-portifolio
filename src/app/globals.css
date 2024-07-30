@@ -13,15 +13,35 @@ body {
     color: #e0e0e0;
     
   }
-
-  @keyframes fadeIn {
-    from {
+  @keyframes animate {
+    0% {
+      transform: scaleX(0);
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
+  
+  @keyframes showText {
+    0% {
       opacity: 0;
     }
-    to {
+    100% {
       opacity: 1;
     }
   }
-  .fade-in {
-    animation: fadeIn 2s ease-in-out;
-  }  
+  
+  .path {
+    animation: animate-path 1s linear forwards;
+  }
+  
+  @keyframes animate-path {
+    0% {
+      stroke-dashoffset: 502;
+    }
+    100% {
+      stroke-dashoffset: calc(502 - (502 * var(--percentage)) / 100);
+    }
+  }
+  
+ 

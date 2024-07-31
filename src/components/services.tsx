@@ -11,7 +11,7 @@ export default function Services() {
   return (
     <section id="services" className="py-8">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl text-center font-bold mb-16">
+        <h1 className="text-4xl text-center font-bold mb-16 mt-10">
           My <span className="text-custom-purple">Services</span>
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">

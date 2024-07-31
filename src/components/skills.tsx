@@ -50,8 +50,8 @@ const Skills: React.FC = () => {
   ];
 
   return (
-    <section id="skills" className="skills mt-28 py-4 px-4 lg:px-24">
-      <h1 className="text-4xl text-center font-bold mb-16">
+    <section id="skills" className="skills mt-4 py-4 px-4 lg:px-24">
+      <h1 className="text-4xl text-center font-bold mb-16 mt-16">
         My <span className="text-custom-purple">Skills</span>
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

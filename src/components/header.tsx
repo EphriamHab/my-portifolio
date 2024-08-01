@@ -17,10 +17,10 @@ export default function Header() {
   };
 
   return (
-    <header className="shadow-lg">
-      <div className="flex justify-between items-center mx-4 md:mx-24 p-2">
-        <h1 className="text-lg font-serif font-bold cursor-pointer">
-          Portfolio
+    <header className={`fixed top-0 left-0 w-full z-50 shadow ${drawerBgClass} ${drawerTextClass}`}>
+      <div className="flex justify-between items-center mx-4 md:mx-24 p-3">
+        <h1 className="text-xl font-serif font-bold cursor-pointer">
+        {`<Ephrem/>`}
         </h1>
         <div className="md:hidden">
           <button
@@ -40,17 +40,46 @@ export default function Header() {
           </button>
         </div>
         <div className="hidden md:flex md:space-x-8">
-          <a href="#" className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded">Home</a>
-          <a href="#about" className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded">About</a>
-          <a href="#services" className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded">
+          <a
+            href="#"
+            className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded"
+          >
+            Home
+          </a>
+          <a
+            href="#about"
+            className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded"
+          >
+            About
+          </a>
+          <a
+            href="#services"
+            className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded"
+          >
             Services
           </a>
-          <a href="#skills" className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded">Skills</a>
-          <a className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded">
+          <a
+            href="#skills"
+            className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded"
+          >
+            Skills
+          </a>
+          <a
+            href="#project"
+            className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded"
+          >
             Projects
           </a>
-          <a className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded">Contact</a>
-          <ThemeSwitcher/>
+          <a
+            href="#certification"
+            className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded"
+          >
+            Certification
+          </a>
+          <a href="#contact" className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded">
+            Contact
+          </a>
+          <ThemeSwitcher />
         </div>
       </div>
       {/* Drawer menu for small screens */}
@@ -60,7 +89,7 @@ export default function Header() {
         } transition-transform duration-300 ease-in-out md:hidden ${drawerBgClass} ${drawerTextClass}`}
       >
         <div className="flex justify-between items-center p-4 border-b border-gray-200">
-          <h2 className="text-lg font-serif font-bold">Portfolio</h2>
+          <h2 className="text-lg font-serif font-bold">{`<Ephrem/>`}</h2>
           <button
             onClick={toggleMenu}
             className="text-blue-500 focus:outline-none"
@@ -76,17 +105,56 @@ export default function Header() {
           </button>
         </div>
         <nav className="flex flex-col p-4 space-y-4">
-          <a href="#" onClick={()=>setIsOpen(false)} className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded">Home</a>
-          <a href="#about" onClick={()=>setIsOpen(false)} className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded">About</a>
-          <a href="#services" onClick={()=>setIsOpen(false)} className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded">
+          <a
+            href="#"
+            onClick={() => setIsOpen(false)}
+            className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded"
+          >
+            Home
+          </a>
+          <a
+            href="#about"
+            onClick={() => setIsOpen(false)}
+            className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded"
+          >
+            About
+          </a>
+          <a
+            href="#services"
+            onClick={() => setIsOpen(false)}
+            className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded"
+          >
             Services
           </a>
-          <a href="#skills" onClick={()=>setIsOpen(false)} className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded">Skills</a>
-          <a onClick={()=>setIsOpen(false)} className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded">
+          <a
+            href="#skills"
+            onClick={() => setIsOpen(false)}
+            className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded"
+          >
+            Skills
+          </a>
+          <a
+            href="#project"
+            onClick={() => setIsOpen(false)}
+            className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded"
+          >
             Projects
           </a>
-          <a onClick={()=>setIsOpen(false)} className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded">Contact</a>
-          <ThemeSwitcher/>        </nav>
+          <a
+            href="#certification"
+            className="p-2 font-serif font-semibold cursor-pointer hover:bg-custom-purple rounded"
+          >
+            Certification
+          </a>
+          <a
+            href="#contact"
+            onClick={() => setIsOpen(false)}
+            className="p-2 font-serif font-semibold cursor-pointer  hover:bg-custom-purple rounded"
+          >
+            Contact
+          </a>
+          <ThemeSwitcher />
+        </nav>
       </div>
     </header>
   );

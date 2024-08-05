@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
+import { FaArrowUp } from "react-icons/fa";
+
 import {
   FaTwitter,
   FaLinkedin,

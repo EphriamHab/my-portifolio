@@ -1,11 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import "animate.css";
-import {
-  FaLaptopCode,
-  FaMobileAlt,
-  FaPaintBrush,
-  FaSearch,
-} from "react-icons/fa";
+import { FaLaptopCode, FaDatabase, FaPaintBrush, FaLayerGroup } from "react-icons/fa";
 
 export default function Services() {
   return (
@@ -18,21 +13,21 @@ export default function Services() {
           <div className="p-8 bg-gradient-to-r from-blue-500 to-blue-700 rounded-xl shadow-xl transform transition duration-500 hover:scale-105 animate__animated animate__fadeInUp">
             <FaLaptopCode className="text-white text-4xl mb-4" />
             <h2 className="text-2xl font-semibold mb-4 text-white">
-              Web Development
+              Front-end Development
             </h2>
             <p className="text-white">
-              Tailored websites to fit your brand. From portfolios to
-              e-commerce, we use the latest tech for engaging experiences.
+              Creating dynamic user interfaces with modern technologies like
+              React, Next.js, and TypeScript to ensure a seamless user experience.
             </p>
           </div>
           <div className="p-8 bg-gradient-to-r from-green-500 to-green-700 rounded-xl shadow-xl transform transition duration-500 hover:scale-105 animate__animated animate__fadeInUp animate__delay-1s">
-            <FaMobileAlt className="text-white text-4xl mb-4" />
+            <FaDatabase className="text-white text-4xl mb-4" />
             <h2 className="text-2xl font-semibold mb-4 text-white">
-              Mobile Development
+              Back-end Development
             </h2>
             <p className="text-white">
-              Custom mobile apps for iOS and Android that provide seamless user
-              experiences and enhance your business.
+              Building robust server-side applications and APIs using Node.js,
+              Express, and MongoDB to handle your application's logic and database needs.
             </p>
           </div>
           <div className="p-8 bg-gradient-to-r from-purple-500 to-purple-700 rounded-xl shadow-xl transform transition duration-500 hover:scale-105 animate__animated animate__fadeInUp animate__delay-2s">
@@ -41,18 +36,18 @@ export default function Services() {
               UI/UX Design
             </h2>
             <p className="text-white">
-              Beautiful and functional designs that create meaningful
-              interactions and improve user satisfaction.
+              Designing intuitive and engaging user interfaces that enhance user
+              satisfaction and drive interaction, with a focus on modern web standards.
             </p>
           </div>
           <div className="p-8 bg-gradient-to-r from-red-500 to-red-700 rounded-xl shadow-xl transform transition duration-500 hover:scale-105 animate__animated animate__fadeInUp animate__delay-3s">
-            <FaSearch className="text-white text-4xl mb-4" />
+            <FaLayerGroup className="text-white text-4xl mb-4" />
             <h2 className="text-2xl font-semibold mb-4 text-white">
-              SEO Optimization
+              Full-Stack Development
             </h2>
             <p className="text-white">
-              Improve your website's visibility on search engines and attract
-              more organic traffic with our SEO services.
+              Combining both front-end and back-end skills to build complete web
+              applications that are scalable, high-performance, and tailored to your needs.
             </p>
           </div>
         </div>

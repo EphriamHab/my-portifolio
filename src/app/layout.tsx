@@ -6,6 +6,8 @@ import Providers from "@/components/providers";
 export const metadata: Metadata = {
   title: "Ephrem | Portifolio",
   description: "personal Portifolio website",
+  
+
 };
 
 export default function RootLayout({

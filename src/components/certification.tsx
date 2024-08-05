@@ -21,11 +21,12 @@ export default function Certification(){
           </div>
           <div className="relative overflow-hidden rounded-lg cursor-pointer group">
             <img
-              src="c1.png"
+              src="c2.jpg"
               alt="Blog App"
               width={600}
               height={400}
               className="w-full rounded-lg transition-transform duration-500 group-hover:scale-105"
+              style={{ height: '310px' }}
             />
           </div>
         </div>

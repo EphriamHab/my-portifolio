@@ -13,7 +13,7 @@ export default function Certification(){
           <div className="relative overflow-hidden rounded-lg cursor-pointer group">
             <img
               src="c1.png"
-              alt="Ecommerce WebApp"
+              alt="ALX Software Engineering"
               width={600}
               height={400}
               className="w-full rounded-lg transition-transform duration-500 group-hover:scale-105"
@@ -22,7 +22,17 @@ export default function Certification(){
           <div className="relative overflow-hidden rounded-lg cursor-pointer group">
             <img
               src="c2.jpg"
-              alt="Blog App"
+              alt="MINAB Tech Certificate"
+              width={600}
+              height={400}
+              className="w-full rounded-lg transition-transform duration-500 group-hover:scale-105"
+              style={{ height: '310px' }}
+            />
+          </div>
+          <div className="relative overflow-hidden rounded-lg cursor-pointer group">
+            <img
+              src="c3.PNG"
+              alt="Udacity Nanodegree"
               width={600}
               height={400}
               className="w-full rounded-lg transition-transform duration-500 group-hover:scale-105"

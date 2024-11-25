@@ -3,8 +3,6 @@ import React from "react";
 import "boxicons/css/boxicons.min.css";
 import { RiNextjsFill } from "react-icons/ri";
 import {
-  FaHtml5,
-  FaCss3,
   FaJsSquare,
   FaPython,
   FaReact,
@@ -14,7 +12,7 @@ import {
 } from "react-icons/fa";
 import { BiBrain, BiGroup, BiConversation } from "react-icons/bi";
 import { IoCodeWorking } from "react-icons/io5";
-import { SiBasicattentiontoken, SiPersistent } from "react-icons/si";
+import { SiBasicattentiontoken, SiPersistent, SiTypescript,SiExpress } from "react-icons/si";
 
 interface SkillProps {
   skill: string;
@@ -24,12 +22,12 @@ interface SkillProps {
 
 const Skills: React.FC = () => {
   const technicalSkills: SkillProps[] = [
-    { skill: "HTML", iconClass: <FaHtml5 />, level: "Advanced" },
-    { skill: "CSS", iconClass: <FaCss3 />, level: "Intermediate" },
     { skill: "JavaScript", iconClass: <FaJsSquare />, level: "Advanced" },
     { skill: "Python", iconClass: <FaPython />, level: "Intermediate" },
     { skill: "React", iconClass: <FaReact />, level: "Advanced" },
     { skill: "Node.js", iconClass: <FaNodeJs />, level: "Advanced" },
+    { skill: "Expressjs", iconClass: <SiExpress />, level: "Advanced" },
+    { skill: "Typescript", iconClass: <SiTypescript />, level: "Intermediate" },
     { skill: "Next.js", iconClass: <RiNextjsFill />, level: "Intermediate" },
     { skill: "Java", iconClass: <FaJava />, level: "Advanced" },
   ];

@@ -125,7 +125,7 @@ export default function Projects() {
                 with friends and family anytime, anywhere.
               </p>
               <Link
-                href="https://github.com/Yeneta-tutors/yeneta_tutor.git"
+                href="https://github.com/Bit-SWE-4th-G7/EthioChat-App"
                 legacyBehavior
               >
                 <a className="text-custom-purple mt-4 text-4xl w-32 h-32 flex items-center justify-center rounded-full">

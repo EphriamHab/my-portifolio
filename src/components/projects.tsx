@@ -20,10 +20,10 @@ export default function Projects() {
               className="w-full rounded-lg transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-blue-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center text-center p-10">
-              <h1 className="text-blue-300 font-semibold text-lg mb-4">
+              <h1 className="text-gray-950 font-bold text-lg mb-4">
                 Ecommerce WebApp
               </h1>
-              <p className="text-sm leading-7">
+              <p className="text-sm leading-7 text-gray-950 font-semibold">
                 Revolutionize your online shopping experience with our
                 MERN-based eCommerce app. Browse, buy, and track orders
                 seamlessly—all in one streamlined platform.
@@ -43,12 +43,12 @@ export default function Projects() {
               src="p1.png"
               alt="Blog App"
               width={600}
-              height={300}
+              height={400}
               className="w-full rounded-lg transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-blue-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center text-center p-10">
-              <h1 className="font-semibold text-lg mb-4">Blog App</h1>
-              <p className="text-sm leading-7">
+              <h1 className="text-gray-950 font-bold text-lg mb-4">Blog App</h1>
+              <p className="text-sm leading-7 text-gray-950 font-semibold">
                 Empower your blogging with our MERN-based platform. Create and
                 share captivating content effortlessly in a sleek, user-friendly
                 interface.
@@ -72,8 +72,8 @@ export default function Projects() {
               className="w-full rounded-lg transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-blue-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center text-center p-10">
-              <h1 className="font-semibold text-lg mb-4">Expense Tracker</h1>
-              <p className="text-sm leading-7">
+              <h1 className="text-gray-950 font-bold text-lg mb-4">Expense Tracker</h1>
+              <p className="text-sm leading-7 text-gray-950 font-semibold">
                 Track expenses effortlessly with our React-based app. Manage
                 spending, stay on budget, and take control of your finances with
                 ease.
@@ -97,8 +97,8 @@ export default function Projects() {
               className="w-full rounded-lg transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-blue-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center text-center p-10">
-              <h1 className="font-semibold text-lg mb-4">የኔታ Tutor</h1>
-              <p className="text-sm leading-7">
+              <h1 className="font-bold text-gray-950 text-lg mb-4">የኔታ Tutor</h1>
+              <p className="text-sm leading-7 text-gray-950 font-bold">
                 የኔታ Tutor is a Flutter-based mobile app connecting students with
                 skilled tutors for quality, affordable at-home learning,
                 designed to support student success.

@@ -73,7 +73,7 @@ export default function Contact() {
           </div>
           <div className="flex mt-5">
             <a
-              href="https://drive.google.com/file/d/1PDtIRKuadUi0iHkCBKm79_cbjWT_iP9d/view?usp=sharing"
+              href="https://drive.google.com/file/d/1qOCiWvHzjd1yJ5dhCVOjqoWY9AwZ8LaV/view?usp=sharing"
               className="bg-custom-purple text-white hover:bg-blue-600 px-8 py-2 rounded-lg shadow-md"
             >
               See my Resume

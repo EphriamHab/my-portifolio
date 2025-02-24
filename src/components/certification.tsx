@@ -39,6 +39,16 @@ export default function Certification(){
               style={{ height: '310px' }}
             />
           </div>
+          <div className="relative overflow-hidden rounded-lg cursor-pointer group">
+            <img
+              src="c4.png"
+              alt="Udacity Nanodegree"
+              width={600}
+              height={400}
+              className="w-full rounded-lg transition-transform duration-500 group-hover:scale-105"
+              style={{ height: '310px' }}
+            />
+          </div>
         </div>
       </div>
     </section>

@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 
-export default function Certification(){
-    return(
-        <section id="certification" className="py-16 mt-4">
+export default function Certification() {
+  return (
+    <section id="certification" className="py-16 mt-4">
       <div id="project" className="container mx-auto px-6">
         <div className="text-center mb-24">
           <h2 className="text-4xl text-center font-bold mb-2 mt-4">
@@ -17,6 +17,7 @@ export default function Certification(){
               width={600}
               height={400}
               className="w-full rounded-lg transition-transform duration-500 group-hover:scale-105"
+              style={{ height: '310px' }}
             />
           </div>
           <div className="relative overflow-hidden rounded-lg cursor-pointer group">
@@ -52,5 +53,5 @@ export default function Certification(){
         </div>
       </div>
     </section>
-    )
+  )
 }
